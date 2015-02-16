@@ -4,7 +4,7 @@
 		module="akka-stream-scala_2.11"
 		revision="1.1"
 		status="integration"
-		publication="20150117230249"
+		publication="20150215201230"
 	>
 		<description>
 		akka-stream-scala
@@ -27,9 +27,7 @@
 	</configurations>
 	<publications>
 		<artifact name="akka-stream-scala_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="akka-stream-scala_2.11" type="jar" ext="jar" conf="compile"/>
-		<artifact name="akka-stream-scala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="akka-stream-scala_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="akka-stream-scala_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.4" conf="scala-tool->default,optional(default)"/>

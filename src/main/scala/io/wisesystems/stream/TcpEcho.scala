@@ -1,4 +1,4 @@
-package sample.stream
+package io.wisesystems.stream
 
 import java.net.InetSocketAddress
 import akka.actor.ActorSystem

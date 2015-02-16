@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/wise-stream.iml" filepath="$PROJECT_DIR$/.idea/wise-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wise-stream-build.iml" filepath="$PROJECT_DIR$/.idea/modules/wise-stream-build.iml" />
     </modules>
   </component>
 </project>

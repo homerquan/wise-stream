@@ -1,4 +1,4 @@
-package sample.stream
+package io.wisesystems.stream
 
 import akka.actor.ActorSystem
 import akka.stream.FlowMaterializer
