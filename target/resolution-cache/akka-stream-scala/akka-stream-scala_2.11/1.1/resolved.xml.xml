@@ -4,7 +4,7 @@
 		module="akka-stream-scala_2.11"
 		revision="1.1"
 		status="integration"
-		publication="20150215201230"
+		publication="20150220114610"
 	>
 		<description>
 		akka-stream-scala
@@ -32,6 +32,12 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream-experimental_2.11" rev="1.0-M2" conf="compile->default(compile)"/>
+		<dependency org="io.scalac" name="reactive-rabbit_2.11" rev="0.2.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" rev="2.1.2" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.1.2" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
