@@ -12,6 +12,7 @@ class Scheduler extends ActorSubscriber with LazyLogging {
   def receive = {
     case OnNext(event: String) =>
       logger.info("[Scheduler] received an event: {}", event)
+      //TBD schedule policy
     case OnError(err: Exception) =>
       logger.error("Error in Scheduler", err)
       context.stop(self)

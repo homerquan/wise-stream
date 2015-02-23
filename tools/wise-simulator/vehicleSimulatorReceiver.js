@@ -19,6 +19,7 @@ amqp.connect('amqp://localhost').then(function(conn) {
 		});
 		ok = ok.then(function(qok) {
 			return ch.bindQueue(qok.queue, ex, '').then(function() {
+				console.log(qok.queue);
 				return qok.queue;
 			});
 		});
