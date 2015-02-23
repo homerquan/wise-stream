@@ -8,7 +8,6 @@ import com.typesafe.scalalogging.slf4j.LazyLogging
 
 import io.scalac.amqp._
 
-
 /**
  * This is our flow factory.
  *
@@ -36,7 +35,7 @@ trait FlowFactory extends LazyLogging {
       // to string
       map { _.utf8String }.
 
-      map {elem => println(elem); elem}.
+      map { elem => println(elem); elem }.
 
       // do something time consuming
       mapAsync { DomainService.expensiveCall }.
@@ -46,8 +45,8 @@ trait FlowFactory extends LazyLogging {
 
   /** Flow responsible for mapping the domain processing result into a RabbitMQ message. */
   def publisherMapping: Flow[CensoredMessage, Routed] =
-    Flow[CensoredMessage] map(cMsg => cMsg match {
-      case MessageSafe(msg) => Routed(routingKey = outOkQueue.name, Message(body = ByteString(cMsg.message)))
+    Flow[CensoredMessage] map (cMsg => cMsg match {
+      case MessageSafe(msg)   => Routed(routingKey = outOkQueue.name, Message(body = ByteString(cMsg.message)))
       case MessageThreat(msg) => Routed(routingKey = outNokQueue.name, Message(body = ByteString(cMsg.message)))
     })
 

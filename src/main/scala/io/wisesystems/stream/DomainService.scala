@@ -1,10 +1,9 @@
 package io.wisesystems.stream
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.{ ExecutionContext, Future }
 import scala.util.Random
 
 import com.typesafe.scalalogging.slf4j.LazyLogging
-
 
 sealed trait CensoredMessage {
   def message: String

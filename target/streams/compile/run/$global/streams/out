@@ -22,4 +22,6 @@
 [0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread wise-scheduler-1 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread wise-akka.actor.default-dispatcher-4 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread wise-akka.actor.default-dispatcher-4 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread wise-akka.actor.default-dispatcher-2 to terminate.[0m

@@ -1,31 +1,45 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/DomainService.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/Scheduler.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set(/home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/Main$delayedInit$body.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver$$anonfun$receive$1.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver$$anonfun$setupRabbit$1.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver$$anonfun$1$$anonfun$apply$1.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver$$anonfun$setupRabbit$2.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/Main$.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/Main.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/Pipeline$.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver$$anonfun$1.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/EventReceiver.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/Pipeline.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/Scheduler.class, /home/homer/Projects/wise-stream/target/scala-2.11/classes/io/wisesystems/stream/Scheduler$$anonfun$receive$1.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/Scheduler.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/DomainService.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/Scheduler.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/Scheduler.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/homer/Projects/wise-stream/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/Scheduler.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/DomainService.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 8 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 8 Scala sources to /home/homer/Projects/wise-stream/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 75853a22, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 21229c5d, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/homer/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/homer/Projects/wise-stream/target/scala-2.11/classes:/home/homer/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.7.jar:/home/homer/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/homer/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/jars/akka-stream-experimental_2.11-1.0-M2.jar:/home/homer/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.M3.jar:/home/homer/.ivy2/cache/io.scalac/reactive-rabbit_2.11/jars/reactive-rabbit_2.11-0.2.1.jar:/home/homer/.ivy2/cache/com.rabbitmq/amqp-client/jars/amqp-client-3.4.1.jar:/home/homer/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/homer/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.5.jar:/home/homer/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/home/homer/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/home/homer/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.0.jar:/home/homer/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/jars/scala-logging-slf4j_2.11-2.1.2.jar:/home/homer/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/jars/scala-logging-api_2.11-2.1.2.jar:/home/homer/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar:/home/homer/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar:/home/homer/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar:/home/homer/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 5.531848224 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 8.172400314 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/DomainService.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/DomainService.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala by /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/FlowFactory.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/stream/EventReceiver.scala, /home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m	Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/homer/Projects/wise-stream/src/main/scala/io/wisesystems/Main.scala)[0m
 [0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

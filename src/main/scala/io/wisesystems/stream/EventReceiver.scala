@@ -45,8 +45,8 @@ class EventReceiver extends ActorPublisher[String] with FlowFactory with LazyLog
       logger.info("Starting the flow")
       flow.run()
 
-//      logger.info("Starting the trial run")
-//      trialRun()
+    //      logger.info("Starting the trial run")
+    //      trialRun()
     case Failure(ex) =>
       logger.error("Failed to declare RabbitMQ infrastructure.", ex)
   }
@@ -88,8 +88,8 @@ class EventReceiver extends ActorPublisher[String] with FlowFactory with LazyLog
    */
   def trialRun() = {
     val trialMessages = "{\"truckId\":\"DKBH-86\",\"velocity\":\"0.0\",\"lat\":\"-33.45944\",\"lon\":\"-70.62888\",\"dateNum\":\"312\",\"hour\":\"14\",\"minute\":\"44\",\"second\":\"18\"}" ::
-       "{\"truckId\":\"DKBH-86\",\"velocity\":\"0.0\",\"lat\":\"-33.45943\",\"lon\":\"-70.62887\",\"dateNum\":\"312\",\"hour\":\"14\",\"minute\":\"45\",\"second\":\"18\"}"  ::
-       Nil
+      "{\"truckId\":\"DKBH-86\",\"velocity\":\"0.0\",\"lat\":\"-33.45943\",\"lon\":\"-70.62887\",\"dateNum\":\"312\",\"hour\":\"14\",\"minute\":\"45\",\"second\":\"18\"}" ::
+      Nil
 
     /* publish couple of trial messages to the inbound exchange */
     Source(trialMessages).
@@ -101,7 +101,8 @@ class EventReceiver extends ActorPublisher[String] with FlowFactory with LazyLog
       take(trialMessages.size).
       map(msg => logger.info(s"'${msg.message.body.utf8String}' delivered to ${outOkQueue.name}")).
       runWith(new OnCompleteSink({
-      case Success(_) => logger.info("Trial run finished. You can now go to http://localhost:15672/ and try publishing messages manually.")
-      case Failure(ex) => logger.error("Trial run finished with error.", ex)}))
+        case Success(_)  => logger.info("Trial run finished. You can now go to http://localhost:15672/ and try publishing messages manually.")
+        case Failure(ex) => logger.error("Trial run finished with error.", ex)
+      }))
   }
 }
