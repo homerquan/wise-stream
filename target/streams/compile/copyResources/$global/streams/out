@@ -1,3 +1,2 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/homer/Projects/wise-stream/src/main/resources/truckPoints.csv,/home/homer/Projects/wise-stream/target/scala-2.11/classes/truckPoints.csv)[0m
-[0m[[0mdebug[0m] [0m	(/home/homer/Projects/wise-stream/src/main/resources/logfile.txt,/home/homer/Projects/wise-stream/target/scala-2.11/classes/logfile.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/homer/Projects/wise-stream/src/main/resources/application.conf,/home/homer/Projects/wise-stream/target/scala-2.11/classes/application.conf)[0m

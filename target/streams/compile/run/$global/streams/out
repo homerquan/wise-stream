@@ -1,12 +1,25 @@
-[0m[[0minfo[0m] [0mRunning sample.stream.WritePrimes [0m
+[0m[[0minfo[0m] [0mRunning io.wisesystems.Main [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/homer/Projects/wise-stream/target/scala-2.11/classes[0m
 [0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
-[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/jars/akka-stream-experimental_2.11-1.0-M2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe.akka/akka-stream-experimental_2.11/jars/akka-stream-experimental_2.11-1.0-M2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.M3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/io.scalac/reactive-rabbit_2.11/jars/reactive-rabbit_2.11-0.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.rabbitmq/amqp-client/jars/amqp-client-3.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.5.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/jars/scala-logging-slf4j_2.11-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/jars/scala-logging-api_2.11-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/homer/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread Sys-akka.actor.default-dispatcher-6 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread wise-scheduler-1 to terminate.[0m
