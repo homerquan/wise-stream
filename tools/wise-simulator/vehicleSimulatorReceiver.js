@@ -10,10 +10,10 @@ amqp.connect('amqp://localhost').then(function(conn) {
 	});
 	return conn.createChannel().then(function(ch) {
 		var ok = ch.assertExchange(ex, 'fanout', {
-			durable: false
+			durable: true
 		});
 		ok = ok.then(function() {
-			return ch.assertQueue('', {
+			return ch.assertQueue(q, {
 				exclusive: true
 			});
 		});

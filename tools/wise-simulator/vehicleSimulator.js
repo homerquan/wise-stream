@@ -13,12 +13,12 @@ mqConn.then(function(conn) {
 	var ok = conn.createChannel();
 	ok = ok.then(function(ch) {
 		var okEx = ch.assertExchange(ex, 'fanout', {
-			durable: false
+			durable: true // message will not lost, even mq dies
 		});
 		okEx.then(function() {
 			reader.addListener('data', function(data) {
 				// supposing there are so named columns in the source file
-				ch.publish(ex, '', new Buffer(JSON.stringify(data)));
+				ch.publish(ex, q, new Buffer(JSON.stringify(data)));
 				// slow down 10s for simulator
 				// TODO: using exchange queue to control speed
 				reader.pause();
