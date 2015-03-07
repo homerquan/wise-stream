@@ -14,12 +14,12 @@ amqp.connect('amqp://localhost').then(function(conn) {
 		});
 		ok = ok.then(function() {
 			return ch.assertQueue(q, {
-				exclusive: true
+				exclusive: false // make sure the queue will not be deleted after disconnection
 			});
 		});
 		ok = ok.then(function(qok) {
 			return ch.bindQueue(qok.queue, ex, '').then(function() {
-				console.log(qok.queue);
+				console.log("[Queue] " + qok.queue);
 				return qok.queue;
 			});
 		});
